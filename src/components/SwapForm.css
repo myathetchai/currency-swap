@@ -1,0 +1,139 @@
+:root {
+  --dark-blue: #003580;
+  --blue: #2754ba;
+  --yellow: #feba02;
+  --light-gray: #f2f6fa;
+  --red: #ff6363			;
+}
+
+.swap-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+    background-color: var(--blue);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(53, 52, 52, 0.1); /*shadow */
+  }
+
+  .label {
+    font-size: 16px;
+    color: var(--light-gray);
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background-color: rgba(38, 36, 50, 0.189);
+    padding: 8px;
+    border-radius: 20px;
+  }
+  
+  .token-button {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    background: white;
+    padding: 10px 14px; 
+    border: 0.5px solid #ccc;
+    cursor: pointer;
+    border-radius: 20px;
+    min-width: 120px; 
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(53, 52, 52, 0.1); /*shadow */
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* tansition on hover */
+  }
+  
+  .token-button:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .token-icon {
+    width: 30%; 
+    height:30%;
+    border-radius: 50%;
+  }
+  
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    color:white;
+  }
+
+    
+  input::placeholder {
+    color: rgb(176, 172, 172)
+  }
+  
+  .swap-button {
+    width: 100%;
+    padding: 15px;
+    background: var(--yellow);
+    color: var(--dark-blue);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10); /* Increased opacity */
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* tansition on hover */
+   
+  }
+
+  .swap-button:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Increased shadow intensity */
+  }
+  
+
+  
+  .swap-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    color:#5f575786
+  }
+  
+  .error-message {
+    color: var(--red);
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .switch-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .switch-icon-container .MuiIconButton-root {
+    color: var(--light-gray); /* default color when enabled */
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: rgba(129, 117, 117, 0.2);
+
+  }
+  
+  .switch-icon-container .MuiIconButton-root:hover {
+    background-color: rgba(129, 117, 117, 0.2);
+
+  }
+  
+  .switch-icon-container .MuiIconButton-root:disabled {
+    color: rgba(189, 179, 179, 0.625); 
+    cursor: not-allowed; 
+    background-color: rgba(129, 117, 117, 0.2);
+
+  }
+  

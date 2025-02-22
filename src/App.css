@@ -1,0 +1,29 @@
+
+:root {
+  --dark-blue: #003580;
+  --blue: #2754ba;
+  --yellow: #feba02;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: var(--dark-blue);
+}
+
+h1{
+  color: var(--yellow);
+  font-family: "Oxanium", sans-serif;
+
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+
+}
+
