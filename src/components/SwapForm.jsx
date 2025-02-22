@@ -109,7 +109,7 @@ function SwapForm({ tokenPrices }) {
         amount={amount}
         onAmountChange={handleFromAmountChange}
         onSelectToken={() => setIsSelecting("from")}
-        placeholder="Enter amount"
+        placeholder="Amount to sell"
       />
 
       {/* switch icon (between tokens) */}
