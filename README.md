@@ -1,9 +1,14 @@
-# React + Vite
+# Currency Swap
+Simple implementation of a currency swap form
+<img width="1469" alt="Screenshot 2025-02-22 at 12 54 11 PM" src="https://github.com/user-attachments/assets/d41815d3-715b-4295-966c-12cebdc813d8" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Trying out the application
 
-Currently, two official plugins are available:
+In the project directory, run:
+`npm install`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# currency-swap
+to install dependencies, then run
+
+`npm run dev`
+
+to run the app locally in the development mode
