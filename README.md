@@ -6,6 +6,7 @@ Simple implementation of a currency swap form
 ## Trying out the application
 
 In the project directory, run:
+
 `npm install`
 
 to install dependencies, then run
